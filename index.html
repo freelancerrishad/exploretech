@@ -8,8 +8,14 @@
     <title>Explore Tech</title>
 
     <!-- Tailwind css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 
     <!-- self css -->
     <link rel="stylesheet" href="css/style.css">
@@ -64,7 +70,7 @@
                             class="block py-2 pr-4 pl-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 font-medium text-xl">About</a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="#register"
                             class="block py-2 pr-4 pl-3 text-gray-900 rounded md:hover:bg-transparent md:hover:text-blue-700 md:p-0 font-medium text-xl">Register</a>
                     </li>
 
@@ -320,9 +326,9 @@
 
     <!-- elearning institute end -->
 
-    <!-- Join section strat -->
+    <!-- register section strat -->
 
-    <section id="join" class="bg-sky-500 h-72 w-full container mx-auto rounded-md flex my-24">
+    <section id="register" class="bg-sky-500 h-72 w-full container mx-auto rounded-md flex my-24">
         <div class="grid md:grid-cols-2 items-center">
             <div class="flex justify-center">
                 <div class="md:w-2/3">
@@ -412,7 +418,7 @@
 
     </section>
 
-    <!-- Join Section End -->
+    <!-- register Section End -->
 
     <!-- Successfull student start -->
 
@@ -425,8 +431,7 @@
         </div><br><br>
         <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
 
-            <div
-                class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
+            <div class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
                 <a href="#">
                     <img class="rounded-t-lg w-full" src="images/student/student-1.png" alt="">
                 </a>
@@ -435,13 +440,12 @@
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Awlad Hossain</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-900">UIUX Designer</p>
-                    
+
                 </div>
             </div>
 
-            
-            <div
-                class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
+
+            <div class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
                 <a href="#">
                     <img class="rounded-t-lg w-full" src="images/student/student-2.png" alt="">
                 </a>
@@ -450,58 +454,196 @@
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Jannatul Islam</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-900">Motion Design</p>
-                    
+
                 </div>
             </div>
 
-            <div
-            class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
-            <a href="#">
-                <img class="rounded-t-lg w-full" src="images/student/student-3.png" alt="">
-            </a>
-            <div class="p-5">
+            <div class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Imran Hossain</h5>
+                    <img class="rounded-t-lg w-full" src="images/student/student-3.png" alt="">
                 </a>
-                <p class="mb-3 font-normal text-gray-900">Graphic Designer</p>
-                
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Imran Hossain</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Graphic Designer</p>
+
+                </div>
             </div>
-        </div>
 
 
-        
-        <div
-        class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
-        <a href="#">
-            <img class="rounded-t-lg w-full" src="images/student/student-4.png" alt="">
-        </a>
-        <div class="p-5">
-            <a href="#">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nishi Akter</h5>
-            </a>
-            <p class="mb-3 font-normal text-gray-900">Web Developer</p>
-            
-        </div>
-    </div>
 
-   
+            <div class="max-w-sm bg-white rounded-lg border border-gray100 shadow-md">
+                <a href="#">
+                    <img class="rounded-t-lg w-full" src="images/student/student-4.png" alt="">
+                </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Nishi Akter</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-900">Web Developer</p>
+
+                </div>
+            </div>
+
+
 
         </div>
         <div>
             <div class="flex justify-center flex-col items-center"> <button type="button"
-                class="block md:hidden lg:block mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-3 py-2.5 mr-2 mb-2 focus:outline-none dark:focus:ring-blue-800">View All</button></div>
-        
+                    class="block md:hidden lg:block mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-3 py-2.5 mr-2 mb-2 focus:outline-none dark:focus:ring-blue-800">View
+                    All</button></div>
+
         </div>
     </section>
 
     <!-- Succesfull student end -->
+    <!-- Frequently ask question start -->
+    <section id="ask" class="flex justify-center items-center my-24 flex-col">
+        <div class="md:w-4/12">
+            <p class="md:text-5xl text-3xl text-center">Frequently Asked Questions</p><br>
+            <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.</p>
+        </div>
+        <div class="my-10" style="width: 66%;">
 
-    <!-- feedback start -->
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item bg-white border border-gray-200">
+                    <h2 class="accordion-header mb-0" id="headingOne">
+                        <button class="
+                          accordion-button
+                          relative
+                          flex
+                          items-center
+                          w-full
+                          py-4
+                          px-5
+                          text-base text-gray-800 text-left
+                          bg-white
+                          border-0
+                          rounded-none
+                          transition
+                          focus:outline-none
+                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                            aria-controls="collapseOne">
+                            What is the difference between flexbox and grid ?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body py-4 px-5">
+                            Grid is made for two-dimensional layout while Flexbox is for one. This means Flexbox can
+                            work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more
+                            flexibility while working on either element (row or column). HTML markup and CSS will be
+                            easy to manage in this type of scenario
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-white border border-gray-200">
+                    <h2 class="accordion-header mb-0" id="headingTwo">
+                        <button class="
+                          accordion-button
+                          collapsed
+                          relative
+                          flex
+                          items-center
+                          w-full
+                          py-4
+                          px-5
+                          text-base text-gray-800 text-left
+                          bg-white
+                          border-0
+                          rounded-none
+                          transition
+                          focus:outline-none
+                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            What is the difference between bootstrap and tailwind ?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body py-4 px-5">
+                            Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a
+                            definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more
+                            flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that
+                            makes them look identical.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-white border border-gray-200">
+                    <h2 class="accordion-header mb-0" id="headingThree">
+                        <button class="
+                          accordion-button
+                          collapsed
+                          relative
+                          flex
+                          items-center
+                          w-full
+                          py-4
+                          px-5
+                          text-base text-gray-800 text-left
+                          bg-white
+                          border-0
+                          rounded-none
+                          transition
+                          focus:outline-none
+                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                            aria-controls="collapseThree">
+                            What is css box model ?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body py-4 px-5">
+                            In CSS, the term "box model" is used when talking about design and layout.
 
-    <!-- feedback end -->
+                            The CSS box model is essentially a box that wraps around every HTML element. It consists of:
+                            margins, borders, padding, and the actual content.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item bg-white border border-gray-200">
+                    <h2 class="accordion-header mb-0" id="headingFour">
+                        <button class="
+                          accordion-button
+                          collapsed
+                          relative
+                          flex
+                          items-center
+                          w-full
+                          py-4
+                          px-5
+                          text-base text-gray-800 text-left
+                          bg-white
+                          border-0
+                          rounded-none
+                          transition
+                          focus:outline-none
+                        " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                            aria-controls="collapseFour">What is symmetric tag ?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body py-4 px-5">
+                            A semantic element clearly describes its meaning to both the browser and the developer.
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Frequently ask question end -->
     <!-- Tailwind script link -->
     <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 
 </body>
 
