@@ -1,3 +1,27 @@
 .register-button{
     transition: 1s all;
 }
+.carousle-item1{
+    background-image: url(../images/cover/cover-1.png);
+   height: auto;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.carousle-item2{
+    background-image: url(../images/cover/cover-2.png);
+    height: auto;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.carousle-item3{
+    background-image: url(../images/cover/cover-3.jpg);
+    height: auto;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+.carousle-class{
+    height: 700px;
+}
