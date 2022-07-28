@@ -18,7 +18,7 @@
 
 <body>
     <!-- Navbar Strat -->
-    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded my-10">
+    <nav class="border-gray-200 px-2 sm:px-4 py-2.5 rounded my-10 container mx-auto">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="index.html" class="flex items-center">
                 <p class="self-center md:text-4xl text-xl font-bold whitespace-nowrap">Explore Tech</p>
@@ -75,8 +75,8 @@
     <!-- Navbar End -->
 
     <!-- slider start -->
-    <section id="slider">
-        <div class="container mx-auto">
+    <section id="slider" class="container mx-auto">
+        <div>
 
             <div id="controls-carousel" class="relative" data-carousel="static">
                 <!-- Carousel wrapper -->
@@ -86,7 +86,7 @@
                         data-carousel-item="active">
 
                         <div class="w-2/4 flex flex-col justify-center items-center">
-                            <p class="text-7xl text-white font-bold text-center">Get Started Digital Learning</p>
+                            <p class="lg:text-7xl text-5xl text-white font-bold text-center">Get Started Digital Learning</p>
                             <p class=" text-center mt-10 text-white">It is a long established fact that a reader will be
                                 distracted by the readable content of a page when looking at its layout.</p>
                             <div><button type="button"
@@ -101,7 +101,7 @@
                     <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 carousle-item2 flex justify-center items-center flex-col"
                         data-carousel-item="">
                         <div class="w-2/4 flex flex-col justify-center items-center">
-                            <p class=" text-center text-7xl text-white font-bold">Get Started Digital Learning</p>
+                            <p class=" text-center lg:text-7xl text-5xl text-white font-bold">Get Started Digital Learning</p>
                             <p class=" text-center mt-10 text-white">It is a long established fact that a reader will be
                                 distracted by the readable content of a page when looking at its layout.</p>
                             <div><button type="button"
@@ -113,7 +113,7 @@
                     <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-30 carousle-item3 flex justify-center items-center flex-col"
                         data-carousel-item="">
                         <div class="w-2/4 flex flex-col justify-center items-center">
-                            <p class=" text-center text-7xl text-white font-bold">Get Started Digital Learning</p>
+                            <p class=" text-center lg:text-7xl text-5xl text-white font-bold">Get Started Digital Learning</p>
                             <p class=" text-center mt-10 text-white">It is a long established fact that a reader will be
                                 distracted by the readable content of a page when looking at its layout.</p>
                             <div><button type="button"
@@ -159,7 +159,7 @@
 
     <!-- Courses Start -->
 
-    <section id="courses" class="courses my-24 flex justify-center flex-col items-center">
+    <section id="courses" class="courses my-24 flex justify-center flex-col items-center container mx-auto">
         <div class="lg:w-1/4 md:w-96">
             <p class="lg:text-5xl md:text-3xl text-2xl text-center font-semibold">Discover Our Popular Courses</p>
 
@@ -191,7 +191,8 @@
                     <div class="flex flex-col justify-between p-4 leading-normal">
                         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">Javascript Basic to advanced
                         </h5>
-                        <p class="mb-3 font-normal text-gray-900">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                        <p class="mb-3 font-normal text-gray-900">Some quick example text to build on the card title and
+                            make up the bulk of the card.</p>
                         <p class="text-sky-700 font-bold">Price : 20$</p>
                     </div>
                 </a>
@@ -227,7 +228,7 @@
                 </a>
             </div>
 
-            
+
             <div class="card mt-10 hidden lg:block">
                 <a href="#"
                     class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100">
@@ -243,7 +244,7 @@
                 </a>
             </div>
 
-            
+
             <div class="card mt-10 hidden lg:block">
                 <a href="#"
                     class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row md:max-w-xl hover:bg-gray-100">
@@ -260,7 +261,9 @@
             </div>
 
         </div>
-        <button type="button" class="mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-10 py-2.5 mr-2 mb-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">See More Course</button>
+        <button type="button"
+            class="mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-10 py-2.5 mr-2 mb-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">See
+            More Course</button>
 
 
     </section>
@@ -271,37 +274,44 @@
     <section id="learning" class="container mx-auto mb-24">
         <div class="grid md:grid-cols-2 gap-12">
             <div>
-                <img src="images/student/student-3.png" alt="" class="w-full object-cover">
+                <img src="images/student/student-3.png" alt="" class="w-94 md:w-full md:h-full object-cover">
             </div>
-            <div>
-            <div class="flex justify-center items-center flex-col">
-               <div class="my-6">
-                <p class="lg:text-5xl text-3xl my-10">Explore The elearning Institute</p>
-                <p class="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure. <br><br>
+            <div class="w-10/12">
+                <div class="flex justify-center items-center flex-col">
+                    <div class="my-6">
+                        <p class="lg:text-5xl text-3xl my-10">Explore The elearning Institute</p>
+                        <p class="">There are many variations of passages of Lorem Ipsum available, but the majority
+                            have suffered alteration in some form, by injected humour, or randomised words which don't
+                            look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
+                            be sure. <br><br>
 
-                    Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
-               </div>
-            </div>
-               <div class="flex justify-between w-96 flex-wrap">
-                <div><p class="lg:text-4xl md:text-2xl font-bold my-4">32K+</p>
-                    <p>Online Course</p>
+                            Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+                            Internet tend to repeat predefined.</p>
+                    </div>
                 </div>
+                <div class="flex justify-between w-96 flex-wrap">
+                    <div>
+                        <p class="lg:text-4xl md:text-2xl font-bold my-4">32K+</p>
+                        <p>Online Course</p>
+                    </div>
                     <div>
                         <p class="lg:text-4xl md:text-2xl font-bold my-4">600+</p>
                         <p>Expert Member</p>
-                    
+
                     </div>
-                    
+
                     <div>
                         <p class="lg:text-4xl md:text-2xl font-bold my-4">1K+</p>
                         <p>Rating & Review</p>
                     </div>
-               </div>
-               <button type="button" class="mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-10 py-2.5 mr-2 mb-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read More</button>
+                </div>
+                <button type="button"
+                    class="mt-10 text-white bg-sky-500 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-bold rounded-lg text-xl px-10 py-2.5 mr-2 mb-2 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Read
+                    More</button>
 
 
-            
-        </div>
+
+            </div>
         </div>
     </section>
 
@@ -309,19 +319,97 @@
 
     <!-- Join section strat -->
 
-    <section id="join" class="bg-sky-500 h-72 w-full container mx-auto rounded-md">
-        <div class="grid grid-cols-2">
-            <div>
-                
+    <section id="join" class="bg-sky-500 h-72 w-full container mx-auto rounded-md flex my-24">
+        <div class="grid md:grid-cols-2 items-center">
+            <div class="flex justify-center">
+                <div class="md:w-2/3">
+                    <p class="text-white lg:text-5xl sm:text-2xl my-5">Ready to join?</p>
+                    <p class="text-white">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
             </div>
-            <div>
+            <div class="flex justify-center">
+
+                <!-- Modal toggle -->
+                <button
+                    class="block text-sky-700 bg-white hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xl px-5 py-2.5 text-center"
+                    type="button" data-modal-toggle="authentication-modal">
+                    Register Now
+                </button>
+
+                <!-- Main modal -->
+                <div id="authentication-modal" tabindex="-1"
+                    class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center flex"
+                    aria-modal="true" role="dialog">
+                    <div class="relative p-4 w-full max-w-md h-full md:h-auto">
+                        <!-- Modal content -->
+                        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+                            <button type="button"
+                                class="absolute top-3 right-2.5 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
+                                data-modal-toggle="authentication-modal">
+                                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                                <span class="sr-only">Close modal</span>
+                            </button>
+                            <div class="py-6 px-6 lg:px-8">
+                                <h3 class="mb-4 text-xl font-medium text-gray-900 dark:text-white">Sign in to our
+                                    platform</h3>
+                                <form class="space-y-6" action="#">
+                                    <div>
+                                        <label for="email"
+                                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                                            email</label>
+                                        <input type="email" name="email" id="email"
+                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            placeholder="name@company.com" required="">
+                                    </div>
+                                    <div>
+                                        <label for="password"
+                                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                                            password</label>
+                                        <input type="password" name="password" id="password" placeholder="••••••••"
+                                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                                            required="">
+                                    </div>
+                                    <div class="flex justify-between">
+                                        <div class="flex items-start">
+                                            <div class="flex items-center h-5">
+                                                <input id="remember" type="checkbox" value=""
+                                                    class="w-4 h-4 bg-gray-50 rounded border border-gray-300 focus:ring-3 focus:ring-blue-300 dark:bg-gray-600 dark:border-gray-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+                                                    required="">
+                                            </div>
+                                            <label for="remember"
+                                                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember
+                                                me</label>
+                                        </div>
+                                        <a href="#"
+                                            class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
+                                            Password?</a>
+                                    </div>
+                                    <button type="submit"
+                                        class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login
+                                        to your account</button>
+                                    <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
+                                        Not registered? <a href="#"
+                                            class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
-        
+
     </section>
 
-<!-- Join Section End -->
+    <!-- Join Section End -->
     <!-- Tailwind script link -->
     <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
